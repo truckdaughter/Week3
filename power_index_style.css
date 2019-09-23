@@ -9,3 +9,68 @@ h1{
 	color: #e27aff;
 	animation: rainbow 5s infinite linear;
 }
+
+p{
+	font-family: helvetica;
+	font-size: 40px;
+	color: #f47735;
+}
+
+.base_center{
+	text-align: center;
+}
+
+.box_left{
+	border: 5px solid #e27aff;
+	padding: 15px; ;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	color: white;
+	font-size: 30px;
+}
+
+.box_center{
+	border: 5px solid #e27aff;
+	padding: 15px; ;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+
+.blank{
+	color: white;
+	font-family: helvetica;
+	text-align: center;
+	font-size: 30px;
+}
+
+.enhance{
+	background-image: url("rainbow.gif");
+	animation: rainbow;
+}
+
+.page{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 25px;
+	color: #fcf0ff;
+	padding: 30px;
+}
+
+a:link {
+    color: none;
+    background-color: transparent;
+    text-decoration: none;
+    animation: rainbow 1s infinite linear;
+}
+
+@keyframes rainbow{
+				0%{color: #f477ec;}
+				50%{color: #36cdff;}
+				100%{color: #f477ec;}
+			}
