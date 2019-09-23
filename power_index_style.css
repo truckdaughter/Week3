@@ -1,0 +1,11 @@
+body{
+	background-color: #25014a;
+}
+
+h1{
+	text-align: center;
+	font-size: 100px;
+	font-family: 'lady_radicalregular';
+	color: #e27aff;
+	animation: rainbow 5s infinite linear;
+}
